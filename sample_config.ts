@@ -1,22 +1,22 @@
 export default {
   // LOGIN DETAILS
-  LINKEDIN_EMAIL: "",
-  LINKEDIN_PASSWORD: "",
+  LINKEDIN_EMAIL: "ankur.kharabe@gmail.com",
+  LINKEDIN_PASSWORD: "ThisIsSaanavi&09",
 
   // JOB SEARCH PARAMETERS
   KEYWORDS: "javascript",
-  LOCATION: "Portugal",
+  LOCATION: "The Netherlands, Luxembourg",
   WORKPLACE: {
     REMOTE: true,
     ON_SITE: true,
-    HYBRID: false,
+    HYBRID: true,
   },
-  JOB_TITLE: "(javascript|frontend|front-end|fullstack|full-stack|nodejs|node|js).*(developer|engineer)",
+  JOB_TITLE: (data-engineer|azure-data-engineer|big-data-engineer|cloud-data-engineer|data-platform-engineer).*(developer|engineer)",
   JOB_DESCRIPTION: "^((?!(primeit))(.|[\n\r]))*$",
-  JOB_DESCRIPTION_LANGUAGES: ["portuguese", "english"], // replace value with ["any"] to accept all job description laguages
+  JOB_DESCRIPTION_LANGUAGES: ["english", "english"], // replace value with ["any"] to accept all job description laguages
 
   // FORM DATA
-  PHONE: "912345678",
+  PHONE: "+919766617093",
   CV_PATH: "",
   COVER_LETTER_PATH: "",
   HOME_CITY: "Lisbon, Portugal",
